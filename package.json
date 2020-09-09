@@ -1,0 +1,33 @@
+{
+  "name": "restaurant-js",
+  "version": "1.0.0",
+  "description": "A restaurant webpage created using only DOM manipulation with Javascript",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferbaco86/restaurant-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferbaco86/restaurant-js/issues"
+  },
+  "homepage": "https://github.com/ferbaco86/restaurant-js#readme"
+}
