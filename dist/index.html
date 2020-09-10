@@ -2,11 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="/src/styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant JS</title>
+  <title>MR. FRESCO</title>
 </head>
 <body>
-<div id="content"></div>
+<div id="content">
+  <header class="d-flex">
+    <nav class="nav-left">
+      <img class="logo" src="/src/images/logo.png" alt="mr. fresco logo">
+    </nav>
+    <nav class="nav-right d-flex">
+      <ul class="d-flex">
+        <li>
+          HOME
+        </li>
+        <li>
+          MENU
+        </li>
+        <li>
+          CONTACT
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero d-flex">
+    <div class="title-container">
+      <h1 class="headline">The <strong>TASTIEST</strong> and <strong>HEALTHIEST</strong> <br> dishes you can find!</h1>
+      <p class="slogan">We dare you to find fresher food!</p>
+      <button id="btn-menu">Menu</button>
+    </div>
+  <div class="main-img-container">
+    <img class="main-img" src="/src/images/main-salad_2.png" alt="main salad dish">
+  </div>
+  </section>
+</div>
   <script src="main.js"></script>
 </body>
 </html>
