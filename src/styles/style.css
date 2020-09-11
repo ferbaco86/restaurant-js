@@ -5,8 +5,10 @@
   list-style: none;
 }
 body {
-  background: linear-gradient(110deg, #85cf30 70%, #348a12 60%);
+  background: linear-gradient(115deg, #0e3013 63%, #e8e8e9 60%);
   height: 100vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .d-flex {
@@ -19,13 +21,34 @@ header {
   align-items: center;
 }
 
+.nav-left {
+  flex: 1;
+}
+
 .nav-right {
   flex: 1;
-  justify-content: center;
+  color: #e8e8e9;
+
+}
+
+.top-pattern {
+  top: 0;
+  text-align: end;
+  right: 0;
+}
+
+.bottom-pattern {
+  bottom: 0;
+  text-align: start;
+}
+
+.top-pattern,
+.bottom-pattern {
+  position: absolute;
 }
 
 .logo {
-  width: 75px;
+  width: 90px;
 }
 
 li {
@@ -38,15 +61,18 @@ li {
 
 .title-container {
   flex: 2;
+  color: #e8e8e9;
 }
 
 .headline {
   font-size: 3em;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .slogan {
   font-size: 1.3em;
+  font-weight: 300;
 }
 
 #btn-menu {
@@ -54,12 +80,29 @@ li {
   width: 10em;
   height: 2.5em;
   font-size: 1.1em;
+  background-color: #289944;
+  border: 2px solid #e8e8e9;
+  color: #e8e8e9;
 }
 
 .main-img {
-  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.leaves-pattern {
+  width: 20%;
+}
+
+.veg-pattern {
+  width: 40%;
 }
 
 .main-img-container {
   flex: 1;
+  margin-top: -100px
+}
+
+strong {
+  color: #289944;
 }
