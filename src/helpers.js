@@ -10,10 +10,6 @@ const domManipulation = (() => {
     element.id = newId;
   };
 
-  const addInnerHTML = (element, text) => {
-    element.innerHTML = text;
-  };
-
   const createImage = (source, alt, arrayClassNames = []) => {
     const img = new Image();
     img.src = source;
@@ -26,15 +22,19 @@ const domManipulation = (() => {
     return img;
   };
 
-  const createHtmlElement = (tag, parentElement, arrayClassNames = [], id = '', text = '') => {
+  const createHtmlElement = ({
+    tag, parentElement, arrayClassNames = [], newId = '', text = '',
+  }) => {
     const newElement = document.createElement(tag);
 
     if (arrayClassNames !== []) {
       addClasses(newElement, arrayClassNames);
-    } else if (id !== '') {
-      addId(newElement, id);
-    } else if (text !== '') {
-      addInnerHTML(newElement, text);
+    }
+    if (newId !== '') {
+      addId(newElement, newId);
+    }
+    if (text !== '') {
+      newElement.innerHTML = text;
     }
     parentElement.appendChild(newElement);
     return newElement;
