@@ -12,9 +12,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-a {
-  color: inherit;
+li {
   text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 .d-flex {

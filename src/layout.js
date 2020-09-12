@@ -16,21 +16,14 @@ const renderLayout = () => {
   const navLeft = domManipulation.createHtmlElement({ tag: 'nav', parentElement: header, arrayClassNames: ['nav-left'] });
   const navRight = domManipulation.createHtmlElement({ tag: 'nav', parentElement: header, arrayClassNames: ['nav-right', 'd-flex'] });
   const uList = domManipulation.createHtmlElement({ tag: 'ul', parentElement: navRight, arrayClassNames: ['d-flex'] });
-  const liHome = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList });
-  const liMenu = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList });
-  const liContact = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList });
-  const homeLink = domManipulation.createHtmlElement({ tag: 'a', parentElement: liHome, text: 'HOME' });
-  const menuLink = domManipulation.createHtmlElement({ tag: 'a', parentElement: liMenu, text: 'MENU' });
-  const contactLink = domManipulation.createHtmlElement({ tag: 'a', parentElement: liContact, text: 'CONTACT' });
+  const liHome = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'HOME' });
+  const liMenu = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'MENU' });
+  const liContact = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'CONTACT' });
 
 
   topPattern.appendChild(topPatternImg);
   bottomPattern.appendChild(bottomPatternImg);
   navLeft.appendChild(logoImg);
-  homeLink.setAttribute('href', 'www.google.cl');
-  menuLink.setAttribute('href', '#menu');
-  contactLink.setAttribute('href', '#contact');
-
 };
 
 export default renderLayout;
