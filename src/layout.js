@@ -16,9 +16,9 @@ const renderLayout = () => {
   const navLeft = domManipulation.createHtmlElement({ tag: 'nav', parentElement: header, arrayClassNames: ['nav-left'] });
   const navRight = domManipulation.createHtmlElement({ tag: 'nav', parentElement: header, arrayClassNames: ['nav-right', 'd-flex'] });
   const uList = domManipulation.createHtmlElement({ tag: 'ul', parentElement: navRight, arrayClassNames: ['d-flex'] });
-  const liHome = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'HOME' });
-  const liMenu = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'MENU' });
-  const liContact = domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, text: 'CONTACT' });
+  domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, newId: 'home', text: 'HOME' });
+  domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, newId: 'menu', text: 'MENU' });
+  domManipulation.createHtmlElement({ tag: 'li', parentElement: uList, newId: 'contact', text: 'CONTACT' });
 
 
   topPattern.appendChild(topPatternImg);
