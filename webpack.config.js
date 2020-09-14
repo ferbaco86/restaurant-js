@@ -15,19 +15,13 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: 'img/[name].[ext]',
-              output: 'img/',
-              // css url path on output
-              publicPath: './',
-            },
           },
         ],
       },
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader, 'css-loader',
+          MiniCssExtractPlugin.loader, 'css-loader?url=false',
         ],
       },
     ],
