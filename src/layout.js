@@ -26,7 +26,6 @@ const renderLayout = () => {
     tag: 'li', parentElement: uList, newId: 'contact', text: 'contact',
   });
 
-
   topPattern.appendChild(topPatternImg);
   bottomPattern.appendChild(bottomPatternImg);
   navLeft.appendChild(logoImg);

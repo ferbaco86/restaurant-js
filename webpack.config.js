@@ -15,6 +15,12 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]',
+              output: 'img/',
+              // css url path on output
+              publicPath: './',
+            },
           },
         ],
       },
@@ -33,5 +39,5 @@ module.exports = {
 
     new CssMinimizerPlugin(),
   ],
-  watch: true,
+  // watch: true,
 };
