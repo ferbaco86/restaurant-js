@@ -1,5 +1,5 @@
 import domManipulation from './helpers';
-import mainDishImg from './images/main-salad_2.png'
+import mainDishImg from './images/main-salad_2.png';
 
 const renderHome = () => {
   const content = document.getElementById('content');

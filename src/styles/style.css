@@ -38,6 +38,7 @@ header {
 .nav-right {
   flex: 1;
   color: #e8e8e9;
+  text-transform: uppercase;
 
 }
 
@@ -121,4 +122,55 @@ li {
 
 strong {
   color: #289944;
+}
+
+.menu {
+  margin-left: 100px;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #e8e8e9;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25),0 2px 2px rgba(0,0,0,0.2),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.1),0 16px 16px rgba(0,0,0,0.05);
+  border-radius: 5px;
+  width: 70em;
+  margin-bottom: 35px;
+}
+
+.card-title,
+.card-text {
+  margin: 20px;
+}
+
+.card-title {
+  color: #0e3013;
+}
+
+.card-text {
+  color: #040f0f;
+}
+
+.card-pic {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.breakfast-pic {
+  background-image: url(/src/images/mr_fresco_breakfast.jpg);
+}
+
+.salmon-pic {
+  background-image: url(/src/images/mr_fresco_quinoa_salmon.jpg);
+}
+
+.salad-pic {
+  background-image: url(/src/images/mr_fresco_SaladMix.jpg);
+}
+
+.pasta-pic {
+  background-image: url(/src/images/mr_fresco_pasta.jpg);
 }
