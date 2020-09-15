@@ -14,6 +14,7 @@ body {
 
 li {
   text-decoration: none;
+  margin-right: 50px;
 }
 
 li:hover {
@@ -39,7 +40,6 @@ header {
   flex: 1;
   color: #e8e8e9;
   text-transform: uppercase;
-
 }
 
 .top-pattern {
@@ -61,10 +61,6 @@ header {
 
 .logo {
   width: 90px;
-}
-
-li {
-  margin-right: 50px;
 }
 
 .hero {
@@ -136,7 +132,7 @@ li {
 
 .main-img-container {
   flex: 1;
-  margin-top: -100px
+  margin-top: -100px;
 }
 
 strong {
@@ -144,7 +140,7 @@ strong {
 }
 
 .menu,
-.contact-info-container { 
+.contact-info-container {
   flex-direction: column;
 }
 
@@ -158,14 +154,14 @@ strong {
 }
 
 iframe {
-  width: 100%; 
+  width: 100%;
   height: 400px;
 }
 
 .card-contact,
 .card {
   background-color: #e8e8e9;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.25),0 2px 2px rgba(0,0,0,0.2),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.1),0 16px 16px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   margin-bottom: 35px;
 }
