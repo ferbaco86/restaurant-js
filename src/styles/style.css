@@ -201,7 +201,7 @@ iframe {
 }
 
 .breakfast-pic {
-  background-image: url('/src/images/mr_fresco_breakfast.jpg');
+  background-image: url(/src/images/mr_fresco_breakfast.jpg);
 }
 
 .salmon-pic {
