@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(115deg, #0e3013 63%, #e8e8e9 60%);
+  height: 100vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+li {
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: 4px #289944 underline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+header {
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-right {
+  flex: 1;
+  color: #e8e8e9;
+  text-transform: uppercase;
+}
+
+.top-pattern {
+  top: 0;
+  text-align: end;
+  right: 0;
+}
+
+.bottom-pattern {
+  bottom: 0;
+  text-align: start;
+}
+
+.top-pattern,
+.bottom-pattern {
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  width: 90px;
+}
+
+.hero {
+  padding: 100px;
+}
+
+.title-container {
+  flex: 2;
+}
+
+.title-container,
+.title-contact,
+.contact-info {
+  color: #e8e8e9;
+}
+
+.title-contact {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.title-contact,
+.headline,
+.contact-info-item {
+  font-weight: 400;
+}
+
+.contact-info-item {
+  margin: 30px;
+}
+
+.headline {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.slogan {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+#btn-menu {
+  margin-top: 80px;
+  width: 10em;
+  height: 2.5em;
+  font-size: 1.1em;
+  background-color: #289944;
+  border: 2px solid #e8e8e9;
+  color: #e8e8e9;
+}
+
+#btn-menu:hover {
+  cursor: pointer;
+  background-color: #040f0f;
+}
+
+.main-img {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.leaves-pattern {
+  width: 20%;
+}
+
+.veg-pattern {
+  width: 40%;
+}
+
+.main-img-container {
+  flex: 1;
+  margin-top: -100px;
+}
+
+strong {
+  color: #289944;
+}
+
+.menu,
+.contact-info-container {
+  flex-direction: column;
+}
+
+.menu,
+.contact {
+  margin-left: 100px;
+}
+
+.contact {
+  justify-content: space-evenly;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.card-contact,
+.card {
+  background-color: #e8e8e9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.card {
+  width: 70em;
+}
+
+.card-contact {
+  width: 30vw;
+}
+
+.card-title,
+.card-text {
+  margin: 20px;
+}
+
+.card-title {
+  color: #0e3013;
+}
+
+.card-text {
+  color: #040f0f;
+}
+
+.card-pic {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.breakfast-pic {
+  background-image: url(/src/images/mr_fresco_breakfast.jpg);
+}
+
+.salmon-pic {
+  background-image: url(/src/images/mr_fresco_quinoa_salmon.jpg);
+}
+
+.salad-pic {
+  background-image: url(/src/images/mr_fresco_SaladMix.jpg);
+}
+
+.pasta-pic {
+  background-image: url(/src/images/mr_fresco_pasta.jpg);
+}
