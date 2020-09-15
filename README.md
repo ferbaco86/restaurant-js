@@ -45,7 +45,7 @@ npm start
 
 ### Usage
 
-now you can open the project going to this address `http://localhost:7000/` in your browser
+Now you can open the project going to this address `http://localhost:7000/` in your browser
 
 ## Potential Features
 
@@ -77,6 +77,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 [Unsplash.com](https://unsplash.com/) for the menu pictures
+
 [Freepik.com](https://www.freepik.com/) for the main dish in the home picture
 
 
