@@ -73,13 +73,32 @@ li {
 
 .title-container {
   flex: 2;
+}
+
+.title-container,
+.title-contact,
+.contact-info {
   color: #e8e8e9;
+}
+
+.title-contact {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.title-contact,
+.headline,
+.contact-info-item {
+  font-weight: 400;
+}
+
+.contact-info-item {
+  margin: 30px;
 }
 
 .headline {
   font-size: 3em;
   margin-bottom: 20px;
-  font-weight: 400;
 }
 
 .slogan {
@@ -124,17 +143,39 @@ strong {
   color: #289944;
 }
 
-.menu {
-  margin-left: 100px;
+.menu,
+.contact-info-container { 
   flex-direction: column;
 }
 
+.menu,
+.contact {
+  margin-left: 100px;
+}
+
+.contact {
+  justify-content: space-evenly;
+}
+
+iframe {
+  width: 100%; 
+  height: 400px;
+}
+
+.card-contact,
 .card {
   background-color: #e8e8e9;
   box-shadow: 0 1px 1px rgba(0,0,0,0.25),0 2px 2px rgba(0,0,0,0.2),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.1),0 16px 16px rgba(0,0,0,0.05);
   border-radius: 5px;
-  width: 70em;
   margin-bottom: 35px;
+}
+
+.card {
+  width: 70em;
+}
+
+.card-contact {
+  width: 30vw;
 }
 
 .card-title,
