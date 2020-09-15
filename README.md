@@ -31,7 +31,13 @@ To running it locally follow these simple steps.
 
 ### Setup
 
-First build the project with this command:
+First install the dependencies of the project with this command:
+
+```
+npm install
+```
+
+Then build the project with this command:
 
 ```
 npm run build
@@ -62,7 +68,7 @@ Now you can open the project going to this address `http://localhost:7000/` in y
 
 - Github: [@ferbaco86](https://github.com/ferbaco86)
 - Twitter: [@ferbac0](https://twitter.com/ferbac0)
-- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa)
+- Linkedin: [fernando-bahamondes-correa](https://www.linkedin.com/in/fernando-bahamondes-correa)
 
 ## 🤝 Contributing
 
